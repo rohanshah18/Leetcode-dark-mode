@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Leetcode dark theme",
+  "version": "1.0",
+  "author": [
+    "Rohan Shah",
+    "Eralp Sahin"
+  ],
+  "description": "Extension for enabling dark mode for Leetcode",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.leetcode.com/*"
+      ],
+      "js": [
+        "darkmode.js"
+      ],
+      "css": [
+        "darkmode.css"
+      ]
+    }
+  ],
+  "permissions": [
+    "tabs"
+  ]
+}
