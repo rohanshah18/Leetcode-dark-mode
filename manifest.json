@@ -10,7 +10,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.leetcode.com/*"
+        "https://www.leetcode.com/*",
+        "https://leetcode.com/*"
       ],
       "js": [
         "darkmode.js"
